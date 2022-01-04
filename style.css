@@ -11,7 +11,8 @@ body{
 }
 .half-widths{
     width: 50%;
-    margin-left: 5%;
+    margin-left: 8%;
+    
 }
 section{
     margin-bottom: 150px;
@@ -19,6 +20,9 @@ section{
 
 .half-widths img{
     width: 80%;
+}
+.half-widths h1{
+    font-size: 40px;
 }
 .hire-me{
     color: white;
@@ -31,10 +35,12 @@ section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
+
 .mid-banner{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position:bottom right;
+
 }
 #Experiences-part{
     display: flex;
@@ -51,6 +57,7 @@ section{
 .final-banner{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
+    background-position: left;
   
 }
 #border-right{
@@ -68,5 +75,11 @@ footer p{
 }
 .experiences-item h2{
     font-size: 35px;
+}
+.half-width-right{
+    margin-right: 70px;
+}
+.final-banner h1{
+font-size: 40px;
 }
 
