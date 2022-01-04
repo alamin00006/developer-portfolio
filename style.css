@@ -1,0 +1,72 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0px;
+}
+.name{
+    color: orange;
+}
+.part-1-2{
+    display: flex;
+    margin-bottom: 150px;
+}
+.half-widths{
+    width: 50%;
+    margin-left: 5%;
+}
+section{
+    margin-bottom: 150px;
+}
+
+.half-widths img{
+    width: 80%;
+}
+.hire-me{
+    color: white;
+    background-image: linear-gradient(orange, green);
+    padding: 10px 40px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.mid-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#Experiences-part{
+    display: flex;
+}
+.experiences-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding:40px;
+    border-radius: 10px;
+
+}
+.final-banner{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+  
+}
+#border-right{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#border-left{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange,red);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
+.experiences-item h2{
+    font-size: 35px;
+}
+
